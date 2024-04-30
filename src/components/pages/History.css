@@ -1,0 +1,21 @@
+.hi {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hi .summary {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hi .summary h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 30px;
+}

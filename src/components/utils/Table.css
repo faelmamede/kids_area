@@ -1,0 +1,48 @@
+.custom-table {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+table {
+    text-align: left;
+    position: relative;
+}
+
+table, th, td {
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+  
+th {
+    background: #f5f5f5;
+    position: sticky;
+    top: 0;
+    border-top: 1px solid black;
+}
+
+.red {
+    color: back;
+    background-color: rgba(235, 117, 96, 0.603);
+}
+
+.orange {
+    color: black;
+    background-color: rgba(255, 166, 0, 0.596);
+}
+
+.yellow {
+    color: black;
+    background-color: rgba(255, 255, 0, 0.61);
+}
+
+.green {
+    color: black;
+    background-color: rgba(0, 128, 0, 0.678);
+}
+
+.blue {
+    color: black;
+    background-color: rgba(0, 0, 255, 0.568);
+}

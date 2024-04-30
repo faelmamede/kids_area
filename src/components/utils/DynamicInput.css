@@ -1,0 +1,83 @@
+.dn form label {
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.dn form .currency {
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+.dn form input {
+    height: 20px;
+    width: 50px;
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.dn input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.dn input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.dn .dn-input {
+    margin-bottom: 6px;
+}
+
+.dn .dn-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dn .plus-button {
+    height: 20px;
+    width: 20px;
+    border: 1px solid #0d8f14;
+    border-radius: 5px;
+    background-color: #54a320cc;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dn .minus-button {
+    height: 20px;
+    width: 20px;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    background-color: #ff00009c;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dn .save-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 60px;
+    border: 1px solid #0d2568;
+    border-radius: 5px;
+    background-color: #2249b4e5;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
